@@ -1,13 +1,16 @@
+/*This is to setup universal formatting for the whole page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This is to change the whole background color to white*/
 body {
     background-color: #d9dcd6;
 }
 
+/*These are to be applied to the whole header section*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*This is an addition to the header to make the h1 show on the right with a specifies font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*This is to change the seo in Horiseon to a different color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*This is to */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,28 @@ body {
     font-size: 20px;
 }
 
+/*This is to make the unordered list plain and not have dots before the list items items*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*This is to have the list items display on the left side of the screen with space between them*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*This is to set the links text to white*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*This changes the font size in p elements to 16px*/
 p {
     font-size: 16px;
 }
-
+/*This is the background image between the nav header and the rest of the body*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +69,26 @@ p {
     background-position: center;
 }
 
+/*This sets the location of the element when displayed on the website to the left with some margin*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*This sets the location of the element when displayed on the website to the right with some margin*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*This sets styling for all section classes*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*This sets styling for the aside tab otherwise known as "benefits"*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +100,7 @@ p {
     background-color: #2589bd;
 }
 
+/*The next three classes define class styles for the aside (benefits) tab*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +116,7 @@ p {
     color: #ffffff;
 }
 
+/*The next three adjust the h3 element in the last three classes*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +132,7 @@ p {
     text-align: center;
 }
 
+/*The next three adjust styling in the img elements in the original 3 classes*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,6 +151,7 @@ p {
     max-width: 150px;
 }
 
+/*This sets styling for section classes*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +161,7 @@ p {
     color: #ffffff;
 }
 
+/*This sets styling for section classes*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +171,7 @@ p {
     color: #ffffff;
 }
 
+/*This sets styling for section classes*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +180,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*The next 6 adjust img sizing and header font sizes and margins */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -188,6 +208,7 @@ p {
     font-size: 36px;
 }
 
+/*This sets styling for footer classes*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +216,7 @@ p {
     text-align: center;
 }
 
+/*This sets the font size to 20px in the h2 element in the header parent*/
 .footer h2 {
     font-size: 20px;
 }
